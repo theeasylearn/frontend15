@@ -1,5 +1,8 @@
 1) create your biodata using only html tag like table, tr, td, heading images etc.
 
+2) create change password web page
+3) create forgot password web page
+----------------------------------------------------------------------------------------
 
 2) develop resume using only html tags as per structure given Web-Developer_resume.jpg file 
 
