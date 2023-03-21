@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register with us</h1> <hr/>
+    <form action="success.html" method="post" enctype="multipart/form-data">
+        <table border="2" align="center" cellpadding="10" width="40%">
+            <tr>
+                <td>
+                    <input type="text" name="fullname" 
+                    placeholder="Enter fullname" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="email" name="email" 
+                    placeholder="enter your email address" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="password" name="password" required 
+                    placeholder="your password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" name="mobile" required 
+                    placeholder="mobile" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Select date of birth</b> <br>
+                    <input type="date" name="dob" required >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>select photo</b> <br>
+                    <input type="file" name="photo" accept="image/jpeg"  required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>select gender</b> <br>
+                    <label for="male">
+                        <input id="male" type="radio" name="gender" value="1">Male
+                    </label> <br/>
+                    <label for="female">
+                        <input id="female" type="radio" name="gender" value="0">female <br/>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>select language you can speak,read,wrte</b> <br>
+                    <label for="gujarati"><input type="checkbox"  id='gujarati' name="gujarati" value="1">Gujarati</label> <br/>
+                    <label for="hindi"><input type="checkbox"  id='hindi' name="hindi" value="2">Hindi</label> <br/>
+                    <label for="english"><input type="checkbox"  id='english' name="english" value="4">English</label> <br/>
+                    <label for="sanskrit"><input type="checkbox"  id='sanskrit' name="sanskrit" value="8">Sanskrit</label> <br/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="country" required>
+                        <option value="">select country</option>
+                        <option value="1">India</option>
+                        <option value="2">USA</option>
+                        <option value="3">Canada</option>
+                        <option value="4">Australia</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>enter your address</b> <br>
+                    <textarea name="address" cols="50" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="submit" value="Lets register" name="submit">
+                    <input type="reset" value="clear all" name="clear">
+                    <input type="button" value="cant do anything" name="button">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
