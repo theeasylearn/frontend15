@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>input tag in html 5</h1> <hr/>
+    <form action="success.html" method="post" novalidate >
+        <table border="2" align="center" width="50%" cellpadding="10">
+            <tr>
+                <td>
+                    Email address
+                </td>
+                <td>
+                    <input type="email" name="email" autocomplete="off" required>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password
+                </td>
+                <td>
+                    <input type="password" name="password" required
+                    pattern="[A-Za-z0-9]{6,12}" /> <br>
+                    only digit and letter are allowed <br/>
+                    minimum length 6 and maximum length 12
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mobile
+                </td>
+                <td>
+                    <input type="text" name="mobile"  autocomplete="on" required
+                    pattern="[0-9]{10}"> <br>
+                    mobile must be of 10 digit
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Student login" >
+                    <input type="submit" value="teacher login" formaction="teacher-success.html">
+                    <input type="submit" value="principal login" formaction="principal-success.html">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
