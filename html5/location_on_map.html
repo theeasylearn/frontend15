@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+</head>
+<body>
+    <div id ='map' style = 'width:100%; height:300px;'></div>
+
+    <script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script>
+        function DisplayMap(latitude,longitude)
+        {
+            var mapOptions = {
+            center: [latitude,longitude],
+            zoom: 9
+            }
+            // Creating a map object
+            var map = new L.map('map', mapOptions);
+            // Creating a Layer object
+            var layer = new     L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+
+            // Adding layer to the map
+            map.addLayer(layer);
+            let marker = new L.Marker([latitude,longitude]);
+            marker.addTo(map);
+        }
+        function getLocation() 
+        {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        }
+        function showPosition(location) {
+            DisplayMap(location.coords.latitude,location.coords.longitude);
+        }
+        getLocation();
+    </script>
+</body>
+</html>

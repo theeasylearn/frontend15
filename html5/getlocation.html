@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <p id="demo">Click the button to get your coordinates:</p>
+    <input onclick="getLocation()" type="button" value="get location" />
+    <script>
+        var mylocation = document.getElementById("demo");
+        function getLocation() 
+        {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        }
+        function showPosition(location) {
+            mylocation.innerHTML = "Latitude = " + location.coords.latitude + "<br> Longitude = " + location.coords.longitude;
+        }
+    </script>
+
+</body>
+
+</html>
