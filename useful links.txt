@@ -1,0 +1,50 @@
+web safe fonts list
+https://blog.hubspot.com/website/web-safe-html-css-fonts
+https://kinsta.com/blog/web-safe-fonts/
+
+html color generator 
+https://htmlcolorcodes.com/
+
+html entities list 
+https://unicode-table.com/en/html-entities/
+https://www.htmlsymbols.xyz
+
+FOR ICONS
+https://www.iconfinder.com/
+
+for images
+gettyimages.com 
+
+
+for random images 
+https://picsum.photos/
+example 
+ <img src="https://picsum.photos/300" />
+
+ for box shadow example 
+ https://getcssscan.com/css-box-shadow-examples
+
+
+ for html, css, javascript 
+ https://developer.mozilla.org
+
+ for css 
+ https://developer.mozilla.org/en-US/docs/Web/CSS
+
+for web fonts
+ https://fonts.google.com/
+
+for css shadow
+https://getcssscan.com/css-box-shadow-examples
+
+
+bootstrap official website 
+https://getbootstrap.com/
+
+for cheetsheet
+https://bootstrap-cheatsheet.themeselection.com/
+
+
+for images 
+www.gettyimages.in 
+https://www.istockphoto.com

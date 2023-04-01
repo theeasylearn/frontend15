@@ -21,6 +21,21 @@
             left:0px;
             position:sticky;
         }
+        #header>ul>li>a:link 
+        {
+            text-decoration: none;
+            color:white;
+            letter-spacing: 1px;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        #header>ul 
+        {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+            justify-content: end;
+        }
         #footer 
         {
             background-color: black;
@@ -33,40 +48,87 @@
         #content 
         {
             padding:10px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #content>div 
+        {
+            box-sizing: border-box;
+            border:1px solid brown;
+            margin-right: 10px;
+            width:calc(33.33% - 10px);
+            margin-bottom:20px;
+            padding:10px 20px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 8px;
+        }
+        #content>div>p 
+        {
+            text-align: justify;
+            text-indent: 25px;
+        }
+        #content>div>h2 
+        {
+            background-color: bisque;
+            padding:10px;   
+
         }
     </style>
 </head>
 <body>
     <div id="header">
         <h1>the easylearn academy</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
     </div>
     <div id="content">
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus omnis magni officia suscipit excepturi, quam similique vitae cum nemo optio vel ducimus repudiandae molestiae. Ducimus aut dignissimos, rem quos quis explicabo nihil dolor eum, error, omnis saepe id ea quas. Laboriosam ad deserunt adipisci cumque consequuntur fuga, recusandae nihil consequatur repellat asperiores unde quam ipsum molestias? Cupiditate, sunt. Ipsum delectus distinctio accusantium porro odit, magni est quos veniam velit tempora laborum error in enim, minus impedit! Numquam sequi, ullam saepe blanditiis perferendis nostrum repellendus et, dolores voluptatibus iste pariatur, cumque alias laboriosam voluptas repudiandae enim ipsam veniam fugit nesciunt. Similique.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus omnis magni officia suscipit excepturi, quam similique vitae cum nemo optio vel ducimus repudiandae molestiae. Ducimus aut dignissimos, rem quos quis explicabo nihil dolor eum, error, omnis saepe id ea quas. Laboriosam ad deserunt adipisci cumque consequuntur fuga, recusandae nihil consequatur repellat asperiores unde quam ipsum molestias? Cupiditate, sunt. Ipsum delectus distinctio accusantium porro odit, magni est quos veniam velit tempora laborum error in enim, minus impedit! Numquam sequi, ullam saepe blanditiis perferendis nostrum repellendus et, dolores voluptatibus iste pariatur, cumque alias laboriosam voluptas repudiandae enim ipsam veniam fugit nesciunt. Similique.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus omnis magni officia suscipit excepturi, quam similique vitae cum nemo optio vel ducimus repudiandae molestiae. Ducimus aut dignissimos, rem quos quis explicabo nihil dolor eum, error, omnis saepe id ea quas. Laboriosam ad deserunt adipisci cumque consequuntur fuga, recusandae nihil consequatur repellat asperiores unde quam ipsum molestias? Cupiditate, sunt. Ipsum delectus distinctio accusantium porro odit, magni est quos veniam velit tempora laborum error in enim, minus impedit! Numquam sequi, ullam saepe blanditiis perferendis nostrum repellendus et, dolores voluptatibus iste pariatur, cumque alias laboriosam voluptas repudiandae enim ipsam veniam fugit nesciunt. Similique.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus omnis magni officia suscipit excepturi, quam similique vitae cum nemo optio vel ducimus repudiandae molestiae. Ducimus aut dignissimos, rem quos quis explicabo nihil dolor eum, error, omnis saepe id ea quas. Laboriosam ad deserunt adipisci cumque consequuntur fuga, recusandae nihil consequatur repellat asperiores unde quam ipsum molestias? Cupiditate, sunt. Ipsum delectus distinctio accusantium porro odit, magni est quos veniam velit tempora laborum error in enim, minus impedit! Numquam sequi, ullam saepe blanditiis perferendis nostrum repellendus et, dolores voluptatibus iste pariatur, cumque alias laboriosam voluptas repudiandae enim ipsam veniam fugit nesciunt. Similique.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus omnis magni officia suscipit excepturi, quam similique vitae cum nemo optio vel ducimus repudiandae molestiae. Ducimus aut dignissimos, rem quos quis explicabo nihil dolor eum, error, omnis saepe id ea quas. Laboriosam ad deserunt adipisci cumque consequuntur fuga, recusandae nihil consequatur repellat asperiores unde quam ipsum molestias? Cupiditate, sunt. Ipsum delectus distinctio accusantium porro odit, magni est quos veniam velit tempora laborum error in enim, minus impedit! Numquam sequi, ullam saepe blanditiis perferendis nostrum repellendus et, dolores voluptatibus iste pariatur, cumque alias laboriosam voluptas repudiandae enim ipsam veniam fugit nesciunt. Similique.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus omnis magni officia suscipit excepturi, quam similique vitae cum nemo optio vel ducimus repudiandae molestiae. Ducimus aut dignissimos, rem quos quis explicabo nihil dolor eum, error, omnis saepe id ea quas. Laboriosam ad deserunt adipisci cumque consequuntur fuga, recusandae nihil consequatur repellat asperiores unde quam ipsum molestias? Cupiditate, sunt. Ipsum delectus distinctio accusantium porro odit, magni est quos veniam velit tempora laborum error in enim, minus impedit! Numquam sequi, ullam saepe blanditiis perferendis nostrum repellendus et, dolores voluptatibus iste pariatur, cumque alias laboriosam voluptas repudiandae enim ipsam veniam fugit nesciunt. Similique.
-        </p>
-
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus omnis magni officia suscipit excepturi, quam similique vitae cum nemo optio vel ducimus repudiandae molestiae. Ducimus aut dignissimos, rem quos quis explicabo nihil dolor eum, error, omnis saepe id ea quas. Laboriosam ad deserunt adipisci cumque consequuntur fuga, recusandae nihil consequatur repellat asperiores unde quam ipsum molestias? Cupiditate, sunt. Ipsum delectus distinctio accusantium porro odit, magni est quos veniam velit tempora laborum error in enim, minus impedit! Numquam sequi, ullam saepe blanditiis perferendis nostrum repellendus et, dolores voluptatibus iste pariatur, cumque alias laboriosam voluptas repudiandae enim ipsam veniam fugit nesciunt. Similique.
-        </p>
-
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus omnis magni officia suscipit excepturi, quam similique vitae cum nemo optio vel ducimus repudiandae molestiae. Ducimus aut dignissimos, rem quos quis explicabo nihil dolor eum, error, omnis saepe id ea quas. Laboriosam ad deserunt adipisci cumque consequuntur fuga, recusandae nihil consequatur repellat asperiores unde quam ipsum molestias? Cupiditate, sunt. Ipsum delectus distinctio accusantium porro odit, magni est quos veniam velit tempora laborum error in enim, minus impedit! Numquam sequi, ullam saepe blanditiis perferendis nostrum repellendus et, dolores voluptatibus iste pariatur, cumque alias laboriosam voluptas repudiandae enim ipsam veniam fugit nesciunt. Similique.
-        </p>
+        <div>
+            <h2>React JS & Node js</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus omnis magni officia suscipit excepturi, quam similique vitae cum nemo optio vel ducimus repudiandae molestiae. Ducimus aut dignissimos, rem quos quis explicabo nihil dolor eum, error, omnis saepe id ea quas. Laboriosam ad deserunt adipisci cumque consequuntur fuga, recusandae nihil consequatur repellat asperiores unde quam ipsum molestias? Cupiditate, sunt. Ipsum delectus distinctio accusantium porro odit, magni est quos veniam velit tempora laborum error in enim, minus impedit! Numquam sequi, ullam saepe blanditiis perferendis nostrum repellendus et, dolores voluptatibus iste pariatur, cumque alias laboriosam voluptas repudiandae enim ipsam veniam fugit nesciunt. Similique.
+            </p>
+        </div>
+        <div>
+            <h2>Flutter</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus omnis magni officia suscipit excepturi, quam similique vitae cum nemo optio vel ducimus repudiandae molestiae. Ducimus aut dignissimos, rem quos quis explicabo nihil dolor eum, error, omnis saepe id ea quas. Laboriosam ad deserunt adipisci cumque consequuntur fuga, recusandae nihil consequatur repellat asperiores unde quam ipsum molestias? Cupiditate, sunt. Ipsum delectus distinctio accusantium porro odit, magni est quos veniam velit tempora laborum error in enim, minus impedit! Numquam sequi, ullam saepe blanditiis perferendis nostrum repellendus et, dolores voluptatibus iste pariatur, cumque alias laboriosam voluptas repudiandae enim ipsam veniam fugit nesciunt. Similique.
+            </p>
+        </div>
+        <div>
+            <h2>Python</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus omnis magni officia suscipit excepturi, quam similique vitae cum nemo optio vel ducimus repudiandae molestiae. Ducimus aut dignissimos, rem quos quis explicabo nihil dolor eum, error, omnis saepe id ea quas. Laboriosam ad deserunt adipisci cumque consequuntur fuga, recusandae nihil consequatur repellat asperiores unde quam ipsum molestias? Cupiditate, sunt. Ipsum delectus distinctio accusantium porro odit, magni est quos veniam velit tempora laborum error in enim, minus impedit! Numquam sequi, ullam saepe blanditiis perferendis nostrum repellendus et, dolores voluptatibus iste pariatur, cumque alias laboriosam voluptas repudiandae enim ipsam veniam fugit nesciunt. Similique.
+            </p>
+        </div>
+        <div>
+            <h2>PHP & Laravel</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus omnis magni officia suscipit excepturi, quam similique vitae cum nemo optio vel ducimus repudiandae molestiae. Ducimus aut dignissimos, rem quos quis explicabo nihil dolor eum, error, omnis saepe id ea quas. Laboriosam ad deserunt adipisci cumque consequuntur fuga, recusandae nihil consequatur repellat asperiores unde quam ipsum molestias? Cupiditate, sunt. Ipsum delectus distinctio accusantium porro odit, magni est quos veniam velit tempora laborum error in enim, minus impedit! Numquam sequi, ullam saepe blanditiis perferendis nostrum repellendus et, dolores voluptatibus iste pariatur, cumque alias laboriosam voluptas repudiandae enim ipsam veniam fugit nesciunt. Similique.
+            </p>
+        </div>
+        <div>
+            <h2>C Language</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus omnis magni officia suscipit excepturi, quam similique vitae cum nemo optio vel ducimus repudiandae molestiae. Ducimus aut dignissimos, rem quos quis explicabo nihil dolor eum, error, omnis saepe id ea quas. Laboriosam ad deserunt adipisci cumque consequuntur fuga, recusandae nihil consequatur repellat asperiores unde quam ipsum molestias? Cupiditate, sunt. Ipsum delectus distinctio accusantium porro odit, magni est quos veniam velit tempora laborum error in enim, minus impedit! Numquam sequi, ullam saepe blanditiis perferendis nostrum repellendus et, dolores voluptatibus iste pariatur, cumque alias laboriosam voluptas repudiandae enim ipsam veniam fugit nesciunt. Similique.
+            </p>
+    
+        </div>
+        <div>
+            <h2>Java</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus omnis magni officia suscipit excepturi, quam similique vitae cum nemo optio vel ducimus repudiandae molestiae. Ducimus aut dignissimos, rem quos quis explicabo nihil dolor eum, error, omnis saepe id ea quas. Laboriosam ad deserunt adipisci cumque consequuntur fuga, recusandae nihil consequatur repellat asperiores unde quam ipsum molestias? Cupiditate, sunt. Ipsum delectus distinctio accusantium porro odit, magni est quos veniam velit tempora laborum error in enim, minus impedit! Numquam sequi, ullam saepe blanditiis perferendis nostrum repellendus et, dolores voluptatibus iste pariatur, cumque alias laboriosam voluptas repudiandae enim ipsam veniam fugit nesciunt. Similique.
+            </p>
+        </div>
+        <div>
+            <h2>React Native</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus omnis magni officia suscipit excepturi, quam similique vitae cum nemo optio vel ducimus repudiandae molestiae. Ducimus aut dignissimos, rem quos quis explicabo nihil dolor eum, error, omnis saepe id ea quas. Laboriosam ad deserunt adipisci cumque consequuntur fuga, recusandae nihil consequatur repellat asperiores unde quam ipsum molestias? Cupiditate, sunt. Ipsum delectus distinctio accusantium porro odit, magni est quos veniam velit tempora laborum error in enim, minus impedit! Numquam sequi, ullam saepe blanditiis perferendis nostrum repellendus et, dolores voluptatibus iste pariatur, cumque alias laboriosam voluptas repudiandae enim ipsam veniam fugit nesciunt. Similique.
+            </p>
+        </div>
     </div>
     <div id="footer">
         <p>copyright &copy; 2023 the easylearn academy</p>
