@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * 
+        {
+            margin: 0px;
+            padding: 0px;
+            letter-spacing: 1px;
+        }
+        body 
+        {
+            background-color: #eee2dc;
+        }
+        .shop 
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .product 
+        {
+            box-sizing: border-box;
+            border:1px solid black;
+            background-color: #edc7b7;
+        }
+        .five
+        {
+            width: calc(18% - 20px);
+        }
+        .three 
+        {
+            width: calc(30% - 20px);
+        }
+        .five>span 
+        {
+            display: block;
+            margin-right: 10px;
+            text-align: right;
+            font-size: 1.2em;
+        }
+        .three>span 
+        {
+            display: block;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .product>h3 
+        {
+            text-align: center;
+            font-size: 1.6em;
+        }
+        .product>img 
+        {
+            display: block;
+            margin: auto;
+        }
+        .product-heading 
+        {
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>class in css</h1>
+    <hr>
+    <h2 class="product-heading">Treding Items</h2>
+    <div class="shop">
+        <div class="product five">
+            <h3>IPhone - 13</h3>
+            <img src="https://picsum.photos/200" />
+            <span>&#8377; 125000</span>
+        </div>
+        <div class="product five">
+            <h3>Macbook pro </h3>
+            <img src="https://picsum.photos/201" />
+            <span>&#8377; 189000</span>
+        </div>
+        <div class="product five">
+            <h3>IPad</h3>
+            <img src="https://picsum.photos/202" />
+            <span>&#8377; 45000</span>
+        </div>
+        <div class="product five">
+            <h3>Iwatch</h3>
+            <img src="https://picsum.photos/203" />
+            <span>&#8377; 25000</span>
+        </div>
+        <div class="product five">
+            <h3>Apple TV</h3>
+            <img src="https://picsum.photos/204" />
+            <span>&#8377; 75000</span>
+        </div>
+    </div>
+
+    <h2 class="product-heading">Recently Added</h2>
+    <div class="shop">
+        <div class="product three">
+            <h3>IPhone - 13</h3>
+            <img src="https://picsum.photos/200" />
+            <span>&#8377; 125000</span>
+        </div>
+        <div class="product three">
+            <h3>Macbook pro </h3>
+            <img src="https://picsum.photos/201" />
+            <span>&#8377; 189000</span>
+        </div>
+        <div class="product three">
+            <h3>IPad</h3>
+            <img src="https://picsum.photos/202" />
+            <span>&#8377; 45000</span>
+        </div>
+      
+    </div>
+</body>
+</html>
