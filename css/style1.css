@@ -1,0 +1,23 @@
+body 
+{
+    background-color: antiquewhite;
+    color:brown;
+}
+* 
+{
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-size: 24px;
+}
+ul 
+{
+    list-style-image: url('dish.png');
+}
+li 
+{
+    text-transform: uppercase;
+    line-height: 200%;
+    border-bottom: 1px solid brown;
+    width:20%;
+    list-style-position: inside;
+}
