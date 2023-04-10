@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+        article
+        {
+            margin:20px;
+        }
+        article>div
+        {
+            background-color: antiquewhite;
+            display: grid;
+            grid-template-rows: auto;
+            grid-template-columns: 50px 4fr 4fr 4fr;
+        }
+        article>div>div /* column */
+        {
+            border:1px solid black;
+            padding:10px 5px;
+
+        }
+        .heading
+        {
+            background-color: brown;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <div class="heading">
+            <div>Sr No</div>
+            <div>Name</div>
+            <div>Email</div>
+            <div>Mobile</div>
+    
+        </div>
+        <div>
+            <div>1</div>
+            <div>Ankit Patel</div>
+            <div>ankit3385@gmail.com</div>
+            <div>9662512857</div>
+        </div>
+        <div>
+            <div>2</div>
+            <div>Jiya Patel</div>
+            <div>jiyapatel@gmail.com</div>
+            <div>1122334455</div>
+        </div>
+        <div>
+            <div>3</div>
+            <div>Diya Patel</div>
+            <div>jiyapatel@gmail.com</div>
+            <div>1122334455</div>
+        </div>
+    </article>
+
+</body>
+</html>
