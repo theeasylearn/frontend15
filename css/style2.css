@@ -54,11 +54,31 @@ body
     margin-bottom: 10px;
     font-family: Roboto, verdana, aerial;
 }
-#courses>div>img 
+#courses
+{
+    display: flex;
+    gap:10px;
+}
+#courses>div>div>img 
 {
     height:100px;
     width:100px;
     border-radius: 100px;
+}
+.course
+{
+    display: flex;
+    width:50%;
+    gap:10px;
+    border:2px solid black;
+    padding:10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #ffe4c4, #d6c0a5, #af9d87, #8a7b6a, #665b4e);
+}
+.course-info>h2
+{
+    font-size: 2em;
+    border-bottom: 1px solid black;
 }
 #content>p 
 {
