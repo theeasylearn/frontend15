@@ -1,0 +1,120 @@
+*
+{
+    margin: 0px;
+    padding:0px;
+    letter-spacing: 0px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+body 
+{
+    background-color: #F0F0F0;
+}
+#header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    position: sticky;
+    left:0px;
+    top:0px;
+}
+#header>ul 
+{
+    display: flex;
+    list-style-type: none;
+    gap:10px;
+}
+#header>ul>li>a:link 
+{
+    color: #F0F0F0;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#header, #footer 
+{
+    background-color: #E7473C;
+    color:  #F0F0F0;
+}
+#header>h1 
+{
+    text-transform: uppercase;
+    font-size: 3em;
+}
+#footer 
+{
+    position: sticky;
+    left:0px;
+    bottom:0px;
+    padding:10px;
+    text-align: center;
+}
+#shop 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.product 
+{
+    border:1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.product>h2 
+{
+    font-size: 2em;
+    color: #E7473C;
+}
+.product>b 
+{
+    font-size: 1.5em;
+    color: #E7473C;
+}
+/* ##Device = Desktops ##Screen = 1281px to higher resolution desktop */
+    @media (min-width: 1281px) {
+    /* code in this block will be applied only if device width>1281 */
+        .product 
+        {
+            width: 20%;
+        }
+    }
+  /* ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px*/
+  @media (min-width: 1025px) and (max-width: 1280px) 
+  {
+    /* code in this block will be applied only if device width>1025 and <1280 */
+        .product 
+        {
+            width: 25%;
+        }
+  }
+  
+  /* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* code in this block will be applied only if device width>768 and <1024 */
+        .product 
+        {
+            width: 33%;
+        }
+  }
+  /* ##Device = Low Resolution Tablets,  ##Screen = B/w 481px to 767px */
+  @media (min-width: 481px) and (max-width: 767px) {
+    /* code in this block will be applied only if device width>481 and <767 */
+        .product 
+        {
+            width: 50%;
+        }
+  }
+  
+  /*  ##Device = Most of the Smartphones Mobiles (Portrait) ##Screen = B/w 320px to 479px */ 
+  @media (min-width: 320px) and (max-width: 480px) {
+    /* code in this block will be applied only if device width>320 and <480 */
+        .product 
+        {
+            width: 100%;
+        }
+  }
